@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "hw9-mois"
+version = "0.1.0"
+description = ""
+authors = ["AlexMois77 <159935651+AlexMois77@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+scrapy = "^2.11.2"
+itemadapter = "^0.9.0"
+redis = "^5.0.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
